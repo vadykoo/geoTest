@@ -22,6 +22,8 @@ OPENWEATHER_SECRET=
 
 php artisan migrate --seed
 
+change is_admin field in database users table to true for your user after registration
+
 php artisan serve
 
 npm install
